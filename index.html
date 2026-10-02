@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fa">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <title>بازی Pong</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="game-wrapper">
+      <div class="scoreboard">
+        <div class="score-box">
+          <span class="label">شما</span>
+          <span id="playerScore">0</span>
+        </div>
+        <div class="score-box">
+          <span class="label">کامپیوتر</span>
+          <span id="computerScore">0</span>
+        </div>
+      </div>
+
+      <canvas id="gameCanvas" aria-label="بازی Pong"></canvas>
+      
+      <div class="controls-info">
+        <p>🎮 حرکت دهید تا پدل خود را کنترل کنید</p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
